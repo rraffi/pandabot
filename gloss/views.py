@@ -44,7 +44,7 @@ def get_payload_values(channel_id="", text=None):
     payload_values['icon_emoji'] = BOT_EMOJI
     return payload_values
 
-def send_webhook_with_attachment(channel_id="", text=None, fallback="", pretext="", title="", color="#f33373", image_url=None, mrkdwn_in=[]):
+def send_webhook_with_attachment(channel_id="", text=None, fallback="", pretext="", title="", color="#1689fc", image_url=None, mrkdwn_in=[]):
     ''' Send a webhook with an attachment, for a more richly-formatted message.
         see https://api.slack.com/docs/attachments
     '''
